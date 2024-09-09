@@ -1,0 +1,181 @@
+#topContant{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),url(./zomato\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 57vh; */
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+#logcreate{
+    text-align: end;
+}
+#crAcount{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+#login{
+    padding: 10px;
+}
+#con2{
+    padding: 20px;
+    margin: 20px;
+}
+span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#line{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+#selectop{
+    padding: 10px;
+    margin: 10px;
+}
+#searchic{
+    background-color: white;
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+}
+#losangles{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+.fa-solid{
+    color: black;
+    height: 10px;
+    padding: 10px;
+}
+input{
+    width: 400px;
+     border: transparent; 
+    border: none;
+    margin-right: 5px;
+    outline: none;
+    
+}
+#con3{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(233, 44, 44);
+    padding: 13px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: inset 10px 10px 10px rgb(255, 122, 122);
+}
+/* top completed */
+#gridContainer{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 20px;
+    height: 350px;
+    padding: 10px;
+    justify-content: space-around;
+}
+#contant2{
+    background-color: rgb(240, 232, 232);
+
+}
+#col1{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
+    background-color: white;
+}
+#col2{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
+    background-color: white;
+}
+#col3{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
+    background-color: white;
+}
+#col4{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
+    background-color: white;
+}
+#col5{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
+    background-color: white;
+}
+#col6{
+    display: grid;
+    grid-template-columns: auto;
+    height: 150px;
+    background-color: white;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.bi-collection-fill{
+position: absolute;
+top: 15%;
+left: 45%;
+}
+.headpara{
+    padding: 5px;
+}
+
+@media screen and (max-width:480px){
+    #topContant{
+        height: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+    #logcreate{
+        text-align: center;
+    }
+    #gridContainer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #con2{
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #contant2{
+        background-color: rgb(240, 232, 232);
+        height: 200vh;
+    }
+    #searchic{
+        padding: 5px;
+        margin-top: 20px;
+        display: flex;
+        width: 360px;
+    }
+    button{
+        background-color: rgb(233, 44, 44);
+        padding: 5px;
+        color: white;
+    }
+    #collect{
+        text-align: center;
+    }
+    #con3{
+        flex-direction: column;
+    }
+
+}
